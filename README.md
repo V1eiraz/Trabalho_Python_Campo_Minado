@@ -1,13 +1,12 @@
-# 🐍 Campo Minado em Python (Console)
+# 🐍 Campo Minado em Python
 
-Um jogo de Campo Minado simples, implementado em Python puro e jogado diretamente no terminal. Este projeto foi criado como um exercício de lógica de programação, manipulação de listas (matrizes) e entrada de dados do usuário.
+Um jogo de Campo Minado simples, implementado em Python e jogado diretamente no terminal. Este projeto foi criado como um exercício de lógica de programação, manipulação de listas (matrizes) e entrada de dados do usuário.
 
 ## 🎮 Funcionalidades
 
 * **Tabuleiro Personalizável:** O usuário pode definir a altura e a largura do tabuleiro (mínimo 3x3, máximo 10x10).
 * **Dificuldade Ajustável:** O usuário escolhe o número de bombas a serem colocadas no tabuleiro.
 * **Validação de Entrada:** O jogo possui tratamento de erros (`try...except`) para entradas inválidas (ex: digitar "olá" em vez de um número), garantindo que o programa não trave.
-* **Interface de Terminal:** Jogo totalmente baseado em texto com comandos simples.
 * **Sistema de Jogo Clássico:**
     * **Abrir (`a`):** Revela uma casa. Se for uma bomba, o jogo acaba. Se for vazia, mostra o número de bombas adjacentes.
     * **Marcar (`m`):** Coloca uma bandeira (`M`) em uma casa suspeita.
